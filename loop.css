@@ -1,0 +1,178 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-image: url(images/desktop/image-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 8vw;
+  padding-top: 20px;
+  align-items: center;
+}
+
+nav p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Fraunces", serif;
+  letter-spacing: 6px;
+  border-color: white;
+  border-style: solid;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  width: fit-content;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+.head {
+  display: flex;
+  margin-inline: 8vw;
+  align-items: center;
+  margin-block: 70px;
+}
+
+.vision img {
+  /* float: left; */
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+.ivword {
+  /* float: right; */
+  background-color: #fff;
+  padding-left: 100px;
+  padding-top: 4rem;
+  width: 600px;
+  height: 200px;
+  padding-right: 100px;
+  position: relative;
+  right: 11rem;
+  top: 68px;
+  background-color: #fff;
+}
+
+.our {
+  display: flex;
+  gap: 700px;
+  padding-left: 100px;
+}
+
+.our p {
+  border-style: solid;
+  width: fit-content;
+}
+
+.parent {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.son1 {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+  color: #fff;
+}
+
+.son1 .nite:hover,
+.deep:hover,
+.team:hover,
+.grid:hover,
+.from:hover,
+.pocket:hover,
+.the:hover,
+.make:hover {
+  color: rgb(37, 1, 31);
+  opacity: 0.8;
+}
+
+.son1 p {
+  font-size: 28px;
+  font-weight: 100;
+  padding-top: 400px;
+  padding-left: 20px;
+  font-family: sans-serif;
+}
+
+.deep,
+.nite,
+.team,
+.grid,
+.from,
+.pocket,
+.the,
+.make {
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.deep {
+  background-image: url(images/desktop/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+}
+
+.nite {
+  background-image: url(images/desktop/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+}
+
+.team {
+  background-image: url(images/desktop/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+}
+
+.grid {
+  background-image: url(images/desktop/image-grid.jpg);
+  background-repeat: no-repeat;
+}
+
+.from {
+  background-image: url(images/desktop/image-from-above.jpg);
+  background-repeat: no-repeat;
+}
+
+.pocket {
+  background-image: url(images/desktop/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+}
+
+.the {
+  background-image: url(images/desktop/image-curiosity.jpg);
+  background-repeat: no-repeat;
+}
+
+.make {
+  background-image: url(images/desktop/image-fisheye.jpg);
+  background-repeat: no-repeat;
+}
